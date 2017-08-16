@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+@import url('https://fonts.googleapis.com/css?family=Cardo');
+
+
+/* Clearfix prevents floating boxes floating out of container */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Basic settings */
+
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* And here follows your custom CSS */
+body {
+  background-image: url('../images/bg.png');
+}
+
+
+
+
